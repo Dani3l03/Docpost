@@ -2,17 +2,17 @@ var conteudos = [
   {
     titulo: "recebimento e baixa de boletos",
     texto: "Você pode receber os pagamentos dos seus boletos diretamente na sua conta bancária pelo app. Você também pode dar baixa manualmente nos boletos que foram pagos em outros meios, como dinheiro ou cheque.",
-    imagem: "/img/indicador.png"
+    imagem: "img/indicador.png"
   },
   {
     titulo: "notificações e lembretes",
     texto: "Você pode receber notificações e lembretes pelo app sobre os seus boletos, como confirmação de envio, aviso de vencimento, confirmação de pagamento e alerta de inadimplência.",
-    imagem: "/img/indicador (1).png"
+    imagem: "img/indicador (1).png"
   },
   {
     titulo: "interação com o sistema web",
     texto: "Você pode sincronizar os seus dados entre o app e o sistema online, mantendo as suas informações atualizadas em ambos os dispositivos. Você também pode acessar o seu painel de controle, os seus relatórios e gráficos pelo web.",
-    imagem: "/img/indicador (2).png"
+    imagem: "img/indicador (2).png"
   }
 ];
 
