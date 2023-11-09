@@ -1,10 +1,10 @@
-@import "css/introdução.css";
-@import "css/header.css";
-@import "css/demonstração.css";
-@import "css/explicação.css";
-@import "css/dúvidas.css";
-@import "css/footer.css";
-@import "css/avaliação.css";
+@import "/css/introdução.css";
+@import "/css/header.css";
+@import "/css/demonstração.css";
+@import "/css/explicação.css";
+@import "/css/dúvidas.css";
+@import "/css/footer.css";
+@import "/css/avaliação.css";
 
 
 :root{
