@@ -1,0 +1,92 @@
+.intro{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 1;
+  gap: 100px;
+  margin-bottom: 160px;
+}
+
+.imagem{
+  grid-column: 2;
+  background-image: url("/img/reunion.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 360px;
+}
+
+.intro h1{
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 0px;
+}
+
+.intro p{
+  text-transform: uppercase;
+  font-size: 20px;
+  color: var(--darkgray-color);
+  margin-bottom: 60px;
+}
+
+.sub-intro{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#blue{
+  color: var(--blue-color);
+}
+
+#gray{
+  font-size: 18px;
+  color: #606060;
+}
+
+.app{
+  padding: 14px 0px;
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 50px;
+}
+
+@media(max-width: 800px){
+  .intro{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+
+  .titulo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 0px;
+  }
+
+  .imagem{
+    grid-column: 1;
+    grid-row: 1;
+    height: 200px;
+    margin-bottom: 0px;
+    position: relative;
+    background-size: cover;
+    box-shadow: inset 0px 0px 20px 20px var(--white-color);
+  }
+
+  .intro h1{
+    margin-top: 0px;
+    text-wrap: wrap;
+    background-color: var(--white-color);
+  }
+
+  .app{
+    margin-right: 0px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+
+  }
+}

@@ -1,0 +1,55 @@
+footer{
+  border-top: solid 2px var(--blue-color);
+
+}
+.name{
+  font-family: Audiowide;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.75px;
+  color: var(--blue-color);
+}
+
+.logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rodape{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social{
+  display: flex;
+  gap: 10px;
+}
+
+.direitos{
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.75px;
+  color: var(--blue-color);
+  text-align: center;
+}
+
+@media(max-width: 800px){
+  .social{
+    gap: 5px;
+    align-items: center;
+
+  }
+
+  .direitos{
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,37 @@
+@import "/css/introdução.css";
+@import "/css/header.css";
+@import "/css/demonstração.css";
+@import "/css/explicação.css";
+@import "/css/dúvidas.css";
+@import "/css/footer.css";
+@import "/css/avaliação.css";
+
+
+:root{
+  --blue-color: #369FFF;
+  --white-color: #FFF;
+  --darkgray-color: #606060;
+  --black-color: #303030;
+  --black-color-rgba: rgba(77, 77, 77, 0.1);
+  --lightblue-color: rgba(56, 159, 255, 13%);
+}
+
+html{
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0px;
+}
+
+.button{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--white-color);
+  background: var(--blue-color);
+  font-weight: 700;
+}
+
+.container{
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}

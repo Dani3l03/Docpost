@@ -1,0 +1,158 @@
+.avaliacao{
+  background: url(/img/background.png) no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 40px 40px 40px 40px var(--white-color);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+  box-sizing: border-box;
+  padding-bottom: 100px;
+}
+
+.avaliador{
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  border: solid var(--black-color-rgba);
+  border-radius: 4px;
+  padding: 14px 12px;
+  background: var(--white-color);
+  flex-shrink: 0;
+  opacity: 0.5;
+  transition: all 600ms ease-in-out;
+}
+
+.avaliador h3{
+  text-transform: uppercase;
+  color: var(--black-color);
+  font-weight: 700;
+  font-size: 18px;
+  margin: 40px 0px 10px 0px;
+}
+
+.avaliador img{
+  width: 180px;
+}
+
+.avaliacao h2{
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--black-color);
+}
+
+.avaliador p{
+  font-size: 14px;
+  font-family: Arial;
+  margin-bottom: 40px;
+}
+
+.carrosel{
+  display: flex;
+  flex-shrink: 0;
+  gap: 40px;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  max-width: 9000px;
+  margin-left: 100px;
+  margin-right: 100px;
+  flex-flow: row nowrap;
+}
+
+.carrosel::-webkit-scrollbar{
+  display: none;
+}
+
+.botoes{
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow-right, 
+.arrow-left{
+  top: 0;
+  left: 0;
+  right: auto;
+  bottom: 0;
+  border: none;
+  font-size: 40px;
+  line-height: 250px;
+  width: 50px;
+  background: var(--white-color);
+  cursor: pointer;
+  background: none;
+  position: absolute;
+}
+
+.arrow-right{
+  left: auto;
+  right: 0;
+  text-align: right;
+}
+
+.current-item{
+  opacity: 1;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+  border: solid 10px var(--white-color);
+}
+
+@media(max-width: 800px){
+  .carrosel{
+    max-width: 300px;
+    gap: 15px;
+    margin-left: auto;
+    margin-right:auto;
+    flex-flow: row nowrap;
+  }
+
+  .avaliacao h2{
+    text-align: center;
+  }
+
+  .avaliador{
+    width: 140px;
+  }
+
+  .avaliador h3{
+    font-size: 14px;
+    margin: 20px 0px 10px 0px;
+  }
+
+  .avaliador img{
+    width: 60px;
+  }
+
+  .avaliador p{
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .avaliacao{
+    box-shadow: inset 40px 40px 40px 40px var(--white-color);
+    background-size: cover;
+  }
+
+  .arrow-right, 
+  .arrow-left{
+  bottom: -380px;
+  font-size: 40px;
+  line-height: 100px;
+  width: 40px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+  .arrow-right{
+  left: auto;
+  right: 0;
+  text-align: right;
+}
+
+  .botoes{
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+}
