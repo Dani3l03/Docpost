@@ -33,6 +33,7 @@ const controls = document.querySelectorAll(".botoes");
 let currentItem = 0;
 const items = document.querySelectorAll(".avaliador");
 const maxItems = items.length;
+items[0].classList.add('current-item');
 
 controls.forEach((control) => {
   control.addEventListener("click", () => {
@@ -57,7 +58,8 @@ controls.forEach((control) => {
 
     items[currentItem].scrollIntoView({
       inline: "center",
-      behavior: "smooth"
+      behavior: "smooth",
+      block: 'nearest',
     });
 
     items[currentItem].classList.add("current-item");
